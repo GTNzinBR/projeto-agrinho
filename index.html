@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festejando a Conectividade com o Campo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Festejando a Conectividade com o Campo 🌾🌐</h1>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#programacao">Programação</a>
+            <a href="#inscricoes">Inscrições</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <section id="sobre">
+            <h2>Sobre o Evento</h2>
+            <p>O evento "Festejando a Conectividade com o Campo" tem como objetivo promover a integração entre tecnologia e agricultura, destacando inovações que transformam o campo.</p>
+            <button class="saiba-mais" onclick="mostrarDetalhes('sobreDetalhes')">Saiba Mais</button>
+            <div id="sobreDetalhes" class="detalhes" style="display: none;">
+                <p>Conectividade é essencial para otimizar processos, aumentar a produtividade e garantir a sustentabilidade no campo.</p>
+            </div>
+        </section>
+        <section id="programacao">
+            <h2>Programação 📅</h2>
+            <ul>
+                <li>09:00 - Abertura do Evento</li>
+                <li>10:00 - Palestra: "Tecnologia no Campo"</li>
+                <li>12:00 - Almoço 🍽️</li>
+                <li>13:30 - Workshop: "Drones na Agricultura" 🚁</li>
+                <li>15:00 - Painel de Discussão 💬</li>
+                <li>17:00 - Encerramento</li>
+            </ul>
+            <button class="saiba-mais" onclick="mostrarDetalhes('programacaoDetalhes')">Saiba Mais</button>
+            <div id="programacaoDetalhes" class="detalhes" style="display: none;">
+                <p>Explore a programação completa e descubra mais sobre cada atividade do evento.</p>
+            </div>
+        </section>
+        <section id="inscricoes">
+            <h2>Inscrições</h2>
+            <p>As inscrições estão abertas! <a href="https://link-de-inscricao.com" target="_blank">Clique aqui</a> para se inscrever.</p>
+            <button class="saiba-mais" onclick="mostrarDetalhes('inscricoesDetalhes')">Saiba Mais</button>
+            <div id="inscricoesDetalhes" class="detalhes" style="display: none;">
+                <p>Saiba mais sobre os requisitos e benefícios da inscrição para o evento.</p>
+            </div>
+        </section>
+    </main>
+    <footer id="contato">
+        <h2>Contato 📧</h2>
+        <p>Email: contato@conectividadecampo.com</p>
+        <p>Telefone: (11) 1234-5678</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
